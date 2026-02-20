@@ -1,0 +1,10 @@
+{
+  "cameras": {
+    "192.168.100.11": {
+      "username": "admin",
+      "password": "admin@123",
+      "rtsp_path": "/cam/realmonitor?channel=1&subtype=0"
+    }
+  },
+  "last_ip": "192.168.100.11"
+}

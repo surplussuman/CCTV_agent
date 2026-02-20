@@ -1,0 +1,5 @@
+opencv-python
+requests
+colorama
+urllib3
+Pillow

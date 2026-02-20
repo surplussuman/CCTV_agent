@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Live Stream Receiver</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#111; color:#eee; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; }
+    .card { background:#222; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.6); }
+    img { max-width: 960px; width: 100%; height: auto; border-radius:4px; display:block; }
+    h1 { margin:0 0 12px 0; font-size:20px }
+    .note { color:#aaa; font-size:13px; margin-top:8px }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Live MJPEG Stream</h1>
+    <img id="stream" src="/stream.mjpg" alt="Live Stream">
+    <div class="note">If stream is blank, ensure the agent posts frames to <code>/api/recognize</code>.</div>
+  </div>
+</body>
+</html>
