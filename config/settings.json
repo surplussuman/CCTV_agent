@@ -4,7 +4,20 @@
       "username": "admin",
       "password": "admin@123",
       "rtsp_path": "/cam/realmonitor?channel=1&subtype=0"
+    },
+    "192.168.1.6": {
+      "username": "admin",
+      "password": "admin@123",
+      "rtsp_path": "/cam/realmonitor?channel=1&subtype=0"
+    },
+    "192.168.1.5": {
+      "username": "admin",
+      "password": "admin@123",
+      "rtsp_path": "/cam/realmonitor?channel=1&subtype=0"
     }
   },
-  "last_ip": "192.168.100.11"
+  "last_ip": "192.168.1.5",
+  "last_stream_key": "camlink_79a03cd1fdc4_192_168_1_5",
+  "last_local_rtsp": "rtsp://admin:admin%40123@192.168.1.5:554/cam/realmonitor?channel=2&subtype=0",
+  "last_cam_name": "Main Entrance"
 }
